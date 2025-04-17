@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <div class="grid">
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='PY.jpg') }}">
+                <img class="cv" src="{{ url_for('static', filename='PY.jpg') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="https://www.udemy.com/share/1020mw3@ST1vxMX2WqTm2hloUJCOByCqdys_Qr62ZTABy9zg_qkOCGxJ_FjqUUIUowNbEGZiuA==/" target="_blank"><strong>Python Bootcamp</strong></a>
+            </p>
+        </div>
+    
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='Pandas.jpg') }}">
+                <img class="cv" src="{{ url_for('static', filename='Pandas.jpg') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="https://www.udemy.com/share/102xF43@Gx2Pe0fQjCyhLY8FYgB65GIMBMJ8WUOuvXzPEuK32F9jaJE-10oMbvtGRFDB5eaaow==/" target="_blank"><strong>Data Analytics with Pandas</strong></a>
+            </p>
+        </div>
+    
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='Webdev.jpg') }}">
+                <img class="cv" src="{{ url_for('static', filename='Webdev.jpg') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="https://www.udemy.com/share/103Ryi3@834B87q7cqhpAPgGSxQbxYFYvyNn8C2aWxv_ocufWs-M-f-kcjAP_nVocA0B8UONPA==/" target="_blank"><strong>Web Development Course</strong></a>
+            </p>
+        </div>
+    
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='N4.jpg') }}">
+                <img class="cv" src="{{ url_for('static', filename='N4.jpg') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="https://www.udemy.com/share/1021SC3@DB8Gyjv4l0YCQSUcXU0WGSzBmXO6yoEk2TygxPJS17NOe1Awverv11VWORC7iLUwZQ==/" target="_blank"><strong>Japanese N4 Course</strong></a>
+            </p>
+        </div>
+    
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='Portfolio.png') }}">
+                <img class="cv" src="{{ url_for('static', filename='Portfolio.png') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="{{ url_for('static', filename='Portfolio.png') }}" target="_blank"><strong>Curriculum Vitae</strong></a>
+            </p>
+        </div>
+    
+        <div class="grid__item">
+            <a href="{{ url_for('static', filename='N4.jpg') }}">
+                <img class="cv" src="{{ url_for('static', filename='N4.jpg') }}" alt="Thumbnail">
+            </a>
+            <p class="caption">
+                <a class="contact__link" href="https://www.udemy.com/share/10caEb3@JXacV9oQfaHBPWlNiIZ4AaNOLaL2muQUYKP9t1l41RAen-RqH9LJKh5v7vXsdDZmNQ==/" target="_blank"><strong>Full Stack WEB Development</strong></a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+        {% endblock %}

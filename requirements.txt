@@ -1,0 +1,12 @@
+blinker
+click
+colorama
+dotenv
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+py
+python-dotenv
+Werkzeug
+gunicorn
